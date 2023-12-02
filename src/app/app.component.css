@@ -1,0 +1,38 @@
+.add-task-card {
+    margin: 15px auto 15px auto;
+    margin-bottom: 30px;
+}
+
+.task-input {
+    width: 50%;
+}
+
+.priority-input {
+    width: 10%;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.action {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-success,
+.btn-danger {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-pen,
+.fa-trash {
+    font-size: 10px;
+}
